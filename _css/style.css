@@ -190,15 +190,18 @@ header, footer{
     margin-top: 40px;
 }
 
-.dark {
-    color: white;
-    background-color: black;
-}
 
-.dark footer {
-    color: black;
-}
 
 #themeMode {
     cursor:pointer;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+    
+}
+
+.dark-mode menu{
+    background-color: black;
+    color: white;
 }

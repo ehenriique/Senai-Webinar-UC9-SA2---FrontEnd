@@ -6,35 +6,53 @@
     <title>Meu primeiro site</title>
 
     <!-- Carregamento do ícone na ába -->
-    <link rel="icon" href="_media/img/banner-home.jpg" type="image/jpg" sizes="16x16">
+    <link rel="icon" href="_media/img/controle-de-video-game.png" type="image/jpg" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
     
     <!-- Carregamento da sua folha de estilo -->
     <link rel="stylesheet" type="text/css" href="_css/style.css">
 
     <!-- Importe o bootstrap -->
-    <link rel="stylesheet" type="text/css" href="...">
-    <script src="..."></script>
+    <link rel="stylesheet" type="text/css" href="/boostrap/css/bootstrap.min.css">
+    <script src=""></script>
 
     <!-- Importe seu javascript de tema aqui, importante deixar o "defer" para que ele seja
         executado apenas ao término do carregamento da página. --> 
     <script src="_scripts/script.js" defer></script>
+    <script src="/script.js" defer></script>
 </head>
 
 <body>
     <header>
+        
+        
         <nav class="menu_top">
             <img class="img-logo" src="_media/img/logo.png">
-            <ul class="menu">
-                <a id="themeMode" class="linkMenu">Dark Mode</a>
+            
+            
+            </div>
+             
+            <ul class="menu" id="dark-mode"> 
+               
                 <a class="linkMenu" href="jogos.html">Jogos</a>
                 <a class="linkMenu" href="hardware.html">Hardware</a>
                 <a class="linkMenu" href="celulares.html">Celulares</a>
                 <a class="linkMenu" href="pc-gamer.html">Pc gamer</a>
                 <a class="linkMenu" href="contato.html">Contato</a>
-                <a class="linkMenu login" href="login.html">Login</a>
+                <a class="linkMenu entrar" href="login.html">Login</a>
+                
+                
             </ul>
+
+            
         </nav>
     </header>
+    <div class="darkmode">
+        <button onclick="myFunction()"> Modo Escuro</button>    
+     </div>
     <div class="section-banner-home">
         <div class="container-fluid">
             <div class="row m-0">
